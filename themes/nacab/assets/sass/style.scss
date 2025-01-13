@@ -1,0 +1,355 @@
+@import "variables";
+@import "header";
+
+
+@mixin post-title($value) {
+	font-size: $value;
+}
+
+::Selection {
+	background: yellow;
+}
+.owl-carousel .owl-nav img {
+    width: auto !important;
+    height: auto !important;
+    margin: 0 -20px;
+}
+.post {
+    align-items: center;
+
+    img {
+        width: 100%;
+    }
+    a {
+        text-decoration: none;
+    }
+    h3 {
+        font-weight: 700;
+        color: $primary-color;
+        transition: .3s;
+        
+
+        &:hover {
+	      color: $title_hover_color;
+	    }
+    }
+    p {
+        font-size: 18px;
+        color: $primary-color;
+        font-family: 'NimbusSanL';
+        line-height: 22.5px;
+    }
+
+}
+#main {
+	h3 {
+	    @include post-title(32px);
+        font-family: 'ArchivoNarrow';
+        line-height: 35.2px;
+	}
+    p {
+        font-family: 'Georgia';
+    }
+}
+.space_l {
+    padding-left: 20% !important;
+} 
+#all {
+	h3 {
+	    @include post-title(22px);
+        font-family: 'NimbusSanL';
+        padding: 10px 0 0px;
+        line-height: 27.5px;
+	}
+}
+#all {
+    align-items: flex-start !important;
+}
+.top_margin {
+    margin-top: -120px;
+}
+h4.post_category {
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    border-top: 5px solid var(--cl);
+    width: fit-content;
+    padding: 5px 0 2px;
+    font-family: 'NimbusSanL';
+    letter-spacing: 0.3px;
+    line-height: 20px;
+}
+
+.cat-date {
+  font-size: 16px !important;
+}
+.bg_color {
+	background: $box-background;
+}
+div#box_section {    
+
+    h2 {
+        font-size: 44px;
+        font-weight: 700;
+        color: $primary-color;
+        font-family: 'NimbusSanL';
+        line-height: 52.8px;
+    }
+    h4 {
+        font-size: 22px;
+        font-weight: 700;
+        color: $primary-color;
+        font-family: 'ArchivoNarrow';
+        line-height: 27.5px;
+    }
+    a {
+       color: #fff;
+       background: $primary-color;
+       text-decoration: none;
+       padding: 2px 20px 3px;
+       border-radius: 50px;
+       font-size: 14px;
+       font-weight: 400;
+       text-transform: uppercase;
+       transition: .4s;
+       font-family: 'ArchivoNarrow';
+       line-height: 18.86px;
+
+       &:hover {
+          background: $button_background_hover;
+       }
+    }
+}
+.bg_color_a h4 {
+    font-size: 26px !important;
+    line-height: 31.2px !important;
+    font-family: 'NimbusSanL' !important;
+}
+.gry_text {
+    color: $gry_text;
+    font-weight: 700;
+}
+.post_date {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+hr {
+	color: $primary-color;
+}
+.post_item {
+    border-bottom: 1px solid #000;
+}
+
+.video_title {
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    border-top: 5px solid #d27f67;
+    width: fit-content;
+    padding: 5px 0 2px;
+    color: #d27f67;
+    font-family: 'NimbusSanL';
+}
+.bg_color_a {
+	background: $box-background-a;
+}
+
+.accordion_section {
+
+    h4 {
+        font-size: 16px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #000;
+        border-top: 5px solid #6AB2CE;
+        width: fit-content;
+        padding: 5px 0 2px;
+        font-family: 'NimbusSanL';
+
+        span {
+            color: #6AB2CE;
+            font-weight: 700;
+        }
+    }
+
+    h2 {
+
+        button {
+            padding-left: 30px;
+            color: #142241;
+            font-size: 22px;
+            font-weight: 700;
+            border-bottom: 1px solid #000;
+            font-family: 'NimbusSanL';
+            line-height: 27.5px;
+        }
+    }
+    
+}
+.accordion-body {
+    font-family: 'NimbusSanL';
+    font-size: 14px;
+}
+.accordion_home .accordion-button::after {
+    position: absolute;
+    left: 0;
+    background-image: url("../img/plus.svg");
+}
+.accordion_home .accordion-button:not(.collapsed)::after {
+    background-image: url("../img/plus.svg");
+}
+.accordion-button:not(.collapsed) {
+    color: #142241;
+    background-color: transparent;
+}
+.accordion-item {
+    border: none;
+}
+.accordion-button:focus {
+    border-color: transparent;
+    box-shadow: unset;
+}
+
+.accordion_img_section {
+    background-image: url("../img/reparacao_banner.png");
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    text-align: center;
+    padding: 40px 60px;
+
+    h3 {
+        color: $primary-color;
+        font-size: 28px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'NimbusSanL';
+        line-height: 33.6px;
+    }
+}
+
+
+.owel_section {
+	border-bottom: 1px solid #000;
+
+	h4 {
+	    font-size: 16px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #000;
+        border-top: 5px solid #d27f67;
+        padding: 5px 0 2px;
+        color: #d27f67;
+        font-family: 'NimbusSanL';
+        font-weight: 700;
+	}
+	img {
+        width: 220px !important;
+        height: 308px;
+        margin: 0 auto;
+	}
+
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+.owl-nav span {
+    font-size: 50px;
+}
+button.owl-prev {
+    position: absolute;
+    left: -74px;
+}
+button.owl-next {
+    position: absolute;
+    right: -74px;
+}
+
+.owl_button {
+	text-align: center;
+	a {
+	    background: $box-background;
+        color: $primary-color;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        padding: 8px 30px 8px;
+        border-radius: 100px;
+        transition: .4s;
+        font-family: 'NimbusSanL';
+        letter-spacing: 0.5px;
+
+	&:hover {
+	    background: $button_background_hover;
+	}
+
+	}
+}
+
+
+
+
+
+
+
+
+@import "quem_somos";
+@import "quem_somos_parceiros";
+@import "comunicacao";
+@import "comunicacao_videos";
+@import "projects";
+@import "documentos_importantes";
+@import "estudos";
+@import "auditoria";
+@import "atos_convocatorios";
+@import "editais";
+@import "sobre";
+@import "organograma";
+@import "cor";
+@import "linha";
+@import "acordo_judicial";
+@import "footer";
+
+
+
+a {
+    transition: .4s;
+}
+button {
+    transition: .4s;
+}
+
+.section-color {
+  background: var(--bgc);
+}
+
+.tag {
+  a {
+    background: var(--bgt);
+    padding: 4px 12px 4px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'NimbusSanL';
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    border-radius: 50px;
+  }
+}
+
+.titulo-sessao {
+  background: var(--cl);
+  color: #000;
+  text-decoration: none;
+  font-family: NimbusSanL;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+}

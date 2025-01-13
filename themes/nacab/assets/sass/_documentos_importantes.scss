@@ -1,0 +1,175 @@
+.doc_section {
+    background: $box-background-b;
+
+    ul {
+        list-style: none;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            padding: 0 40px;
+
+            a {
+                display: block;
+                font-family: 'ArchivoNarrow';
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 22.5px;
+                text-align: center;
+                color: #000;
+                text-decoration: none;
+
+                &:hover {
+                    color: $title_hover_color;
+                }
+            }
+        }
+    }
+}
+li.doc_b {
+    border-left: 2px solid #5f5f5f;
+    border-right: 2px solid #5f5f5f;
+}
+.page_title {
+    text-align: center;
+
+    a {
+        font-family: 'NimbusSanL';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 51.04px;
+        letter-spacing: 0.02em;
+        background: #000;
+        color: #fff;
+        padding: 8px 20px;
+        text-decoration: none;
+    }
+    
+}
+
+#acao_section {
+	
+	h1 {
+        font-family: 'NimbusSanL';
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 64.4px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-family: 'NimbusSanL';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+
+        li {
+            display: inline-block;
+
+            a {
+                font-family: 'NimbusSanL';
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 30.8px;
+                text-align: center;
+                text-decoration: none;
+                color: #84AF9C;
+            }
+        }
+    }
+}
+#acao_section li + li:before {
+    content: " | ";
+    padding: 0 10px;
+    color: #84AF9C;
+    font-size: 22px;
+}
+
+.acao_year_contant {
+	
+	h4 {
+        font-family: 'NimbusSanL';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+
+        li {
+            font-family: 'NimbusSanL';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 45.6px;
+            border-bottom: 1px solid #000;
+
+            a {
+                font-family: 'NimbusSanL';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 45.6px;
+                color: #000;
+            }
+        }
+    }
+    h3 {
+        font-family: 'NimbusSanL';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    td {
+        font-family: 'NimbusSanL';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 45.6px;
+        border-bottom: 1px solid #000;
+    }
+}
+.year_tabal {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tab_b {
+	line-height: 22px !important;
+    padding: 8px 0;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+.tab_a {
+	padding: 8px 0;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+ul.year_date {
+    border-right: 2px solid #777;
+    padding: 0 54px;
+}
+.tabal_b li {
+    word-spacing: 4px;
+}
+#table_a li {
+    line-height: initial;
+    border: 0;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,238 @@
+.atos_section {
+    background: $box-background-c;
+
+    h2 {
+        color: #66CC99;
+        text-transform: uppercase;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 40.8px;
+        text-align: center;
+        font-family: 'NimbusSanL';
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+
+        li.active {
+            background: #66cc99;
+        }
+
+        li {
+            display: inline-block;
+            padding: 0 30px;
+
+            a {
+                color: $menu_color;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 41.76px;
+                text-align: center;
+                font-family: 'NimbusSanL';
+                text-decoration: none;
+                letter-spacing: 0.2px;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: $menu_hover_color_a;
+                } 
+            }
+        }
+    }
+}
+
+.menu_atos {
+    border-top: 6px solid #66CC99;
+    border-bottom: 1px solid #000;
+}
+
+.editais_btns {
+    text-align: center;
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 20px;
+            
+            a {
+
+                button {
+                    color: #000;
+                    text-decoration: none;
+                    font-family: 'NimbusSanL';
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 31.9px;
+                    background: #66CC99;
+                    width: 260px;
+                    border: none;
+                    padding: 6px 0;
+
+                    &:hover {
+                        background: $oportunidades_button;
+                    }
+                }
+
+            }
+        }
+    }
+}
+.editais_btns_b {
+    text-align: center;
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 20px;
+            
+            a {
+
+                button {
+                    color: #fff;
+                    text-decoration: none;
+                    font-family: 'NimbusSanL';
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 26.1px;
+                    background: #000;
+                    width: 220px;
+                    border: none;
+                    padding: 6px 0;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        background: $button_background_hover;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+.editais_contant .convocatorio_section {
+    
+    h1 {
+        font-family: 'NimbusSanL';
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 64.4px;
+        text-align: center;
+        color: #000;
+    }
+    h3 {
+        font-family: 'NimbusSanL';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 31.9px;
+        color: #66CC99;
+        text-align: center;
+    }
+    p {
+        font-family: 'NimbusSanL';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23.2px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        width: 50%;
+
+        li {
+            font-family: 'NimbusSanL';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 29.6px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+
+            span {
+                text-transform: initial;
+                font-weight: 700;
+            }
+            a {
+                font-family: 'NimbusSanL';
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 23.1px;
+                color: #000;
+                text-decoration: none;
+                background: #DBFDE9;
+                padding: 4px 15px;
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+.editais_contant .download_section {
+
+    h5 {
+        font-family: 'NimbusSanL';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29.6px;
+    }
+    ul {
+        width: auto;
+        list-style: none;
+        padding: 0;
+
+        li {
+            border: none;
+
+            a {
+                font-family: 'NimbusSanL';
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 32px;
+                color: #000;
+                text-decoration: none;
+                background: transparent;
+                padding: 0px 10px;
+                border-radius: 50px;
+                border: 1px solid #000;
+                text-transform: initial;
+
+                span {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+}
+
+
+.editais_contant {
+    border-bottom: 4px solid #000;
+}
+.editais_pass {
+    text-align: center;
+
+    a {
+        background: #000;
+        font-family: 'NimbusSanL';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26.1px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 6px 20px 4px;
+
+        &:hover {
+            background: $button_background_hover;
+        }
+    }
+}

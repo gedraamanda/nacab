@@ -1,0 +1,217 @@
+.top_title {
+    h4 {
+        font-family: 'Georgia';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 33.6px;
+        text-align: center;
+        border-bottom: 1px solid #000;
+    }
+
+}
+
+#partners_section {
+	
+	.row {
+        border-bottom: 1px solid #000;
+    }
+	p {
+        font-family: 'Georgia';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25.2px;
+        color: #000;
+    }
+    a {
+        font-family: 'NimbusSanL';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15.6px;
+        letter-spacing: 0.01em;
+        background: #000;
+        color: #fff;
+        text-decoration: none;
+        padding: 4px 20px;
+        border-radius: 50px;
+
+        &:hover {
+            background: $button_background_hover;
+        }
+    }
+}
+.partner_last {
+    border: none !important;
+}
+.parceiros_doc {
+	text-align: center;
+
+    a {
+        font-family: 'ArchivoNarrow';
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 33.6px;
+        background: #6AB2CE;
+        color: #fff;
+        text-decoration: none;
+        padding: 4px 20px;
+
+        &:hover {
+            background: $button_background_hover;
+        }
+    }
+    p {
+        font-family: 'Georgia';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25.2px;
+        color: #000;
+    }
+    button {
+        font-family: 'ArchivoNarrow';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28.8px;
+        border: none;
+        background: #DDF1F9;
+        color: #000;
+        padding: 0 12px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            padding: 0 30px;
+
+            h4 {
+                font-family: 'ArchivoNarrow';
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 22.5px;
+                color: #000;
+                margin: 0;
+
+                a {
+                    font-family: 'ArchivoNarrow';
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 22.5px;
+                    color: #000;
+                    margin: 0;
+                    background: unset !important;
+                    padding: 0;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        color: $title_hover_color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dropbutton {
+    padding: 0px 19px !important;
+}
+#atos_dropdown {
+	list-style: none;
+    margin-top: 10px;
+    background: #DDF1F9;
+    padding: 6px 6px 15px;
+    
+    li {
+        margin: 0px 5px;
+        border-bottom: 1px solid #000;
+        padding: 2px 0;
+
+        a.dropdown-item {
+            font-family: 'ArchivoNarrow';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22.5px;
+            text-align: center;
+            background: transparent;
+            color: #000;
+
+            &:hover {
+                background: $button_background_hover;
+            }
+        }
+    }
+
+    
+}
+
+.parceiros_slide img {
+    width: 260px !important;
+    margin: 0 auto;
+}
+.parceiros_owl .owl-nav {
+    /* display: block !important; */
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+
+.affected_dams {
+    h4 {
+        font-family: 'NimbusSanL';
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 27.75px;
+        color: #6AB2CE;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    h5 {
+        font-family: 'NimbusSanL';
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 27.75px;
+        color: #000;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    p {
+        font-family: 'NimbusSanL';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29.6px;
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            padding-right: 40px;
+
+            a {
+                font-family: 'NimbusSanL';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 29.6px;
+                color: #000;
+                text-decoration: none;
+                display: contents;
+
+                &:hover {
+                    color: $title_hover_color;
+                }
+            }
+        }
+    }
+
+
+}
+.dams {
+    border-bottom: 1px solid #000;
+}
+.border_remove {
+    border: unset !important;
+}

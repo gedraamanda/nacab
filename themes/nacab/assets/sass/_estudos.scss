@@ -1,0 +1,205 @@
+.information_section {
+    background: $box-background-b;
+    text-align: center;
+
+    h2 {
+        font-family: 'NimbusSanL';
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+    button.accordion-button {
+        font-family: 'NimbusSanL';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 45.6px;
+        text-align: left;
+        padding: 6px 0px;
+        background: transparent;
+    }
+    button.accordion-button.collapsed {
+        font-weight: 400;
+    }
+    .accordion-body {
+        font-family: 'NimbusSanL';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 23.2px;
+        text-align: left;
+        padding: 16px 0px;
+    }
+    .accordion-header {
+        border-bottom: 1px solid #000;
+    }
+    .accordion-item {
+        background-color: transparent;
+    }
+
+}
+
+
+.estudos_title {
+    text-align: center;
+
+    a {
+        font-family: 'NimbusSanL';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 51.04px;
+        letter-spacing: 0.02em;
+        background: #000;
+        color: #fff;
+        padding: 8px 20px;
+        text-decoration: none;
+    }
+    
+}
+
+
+.information_accorion .accordion-button::after {
+    background-image: url("../img/plus_b.svg");
+}
+
+.information_accorion .accordion-button:not(.collapsed)::after {
+    background-image: url("../img/minas_b.svg");
+    transform: rotate(-180deg);
+}
+
+.materials_section {
+    text-align: center;
+
+    h2 {
+        font-family: 'NimbusSanL';
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+    h5 {
+        font-family: 'NimbusSanL';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30.8px;
+        color: #84AF9C;
+    }
+    p {
+        font-family: 'NimbusSanL';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 23.2px;
+        text-align: left;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            padding: 0 40px;
+
+            h4 {
+                a{
+                    font-family: 'ArchivoNarrow';
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 22.5px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: #000;
+
+                    &:hover {
+                        color: $title_hover_color;
+                    }
+                }
+            }
+        }
+    }
+}
+li.border_l_r {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.Produto_doc li {
+    width: 33%;
+    float: left;
+    border-right: 1px solid #000;
+}
+
+.materials_slider {
+
+
+    img {
+        width: fit-content !important;
+        margin: 0 auto;
+    } 
+    h4 {
+        a{
+            font-family: 'ArchivoNarrow';
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22.5px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #000;
+
+            &:hover {
+                color: $title_hover_color;
+            }
+        }
+    }
+    .owl-nav {
+        /* display: block !important; */
+        position: absolute;
+        top: 20%;
+        width: 100%;
+    }
+}
+
+.channels_section {
+    width: 100%;
+
+    p {
+        font-weight: 400 !important;
+        margin: 0;
+    }
+    h4 {
+        text-align: left;
+        margin: 0;
+
+        a {
+            font-family: 'NimbusSanL';
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 23.2px;
+            text-decoration: none;
+            color: #000;
+            padding-left: 8px;
+
+            &:hover {
+                color: $title_hover_color;
+            }
+        }
+    }
+    .contact {
+        border-bottom: 1px solid #000;
+        padding: 2px 0 8px;
+    }
+    a.ERSHRE {
+        font-family: 'NimbusSanL';
+        color: #000;
+        text-decoration: none;
+        border: 1px solid #000;
+        font-weight: 700;
+        line-height: 23.2px;
+        padding: 1px 22px 3px;
+        border-radius: 50px;
+
+        &:hover {
+            color: $title_hover_color;
+        }
+    }
+}
+
+
+

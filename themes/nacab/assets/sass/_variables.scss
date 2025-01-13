@@ -1,0 +1,50 @@
+$primary-color: #000;
+$box-background: #ddf1f9;
+$box-background-a: #f6c9bc;
+$box-background-b: #D0E7DD;
+$box-background-c: #DBFDE9;
+$gry_text: #84af9c;
+
+
+
+$menu_color: #000000;
+$menu_hover_color: #66cc99;
+$menu_hover_color_a: #D27F67;
+$button_background: #6AB2CE;
+$button_background_hover: #66cc99;
+$title_hover_color: #D27F67;
+$comunicacao_button: #D27F67;
+$oportunidades_button: #DBFDE9;
+
+@font-face {
+  font-family: NimbusSanL;
+  src: url(assets/font/NimbusSanL-Reg-webfont.woff);
+}
+@font-face {
+  font-family: Georgia;
+  src: url(assets/font/georgia.ttf);
+}
+@font-face {
+  font-family: ArchivoNarrow;
+  src: url(assets/font/ArchivoNarrow-Regular.ttf);
+}
+
+#wpadminbar {
+  display: none !important;
+}
+
+a.comum {
+  font-family: Georgia !important;
+  font-size: 19px !important;
+  font-weight: 400 !important;
+  line-height: 41.8px !important;
+  letter-spacing: .03em !important;
+  text-align: center !important;
+  display: inline-block !important;
+  text-transform: uppercase !important;
+  position: unset !important;
+  width: unset !important;
+  background: unset !important;
+  color: #000 !important;
+  text-decoration: underline !important;
+}

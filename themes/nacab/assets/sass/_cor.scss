@@ -1,0 +1,49 @@
+
+#Germinar_page{
+	
+	.owl-nav {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+    }
+    .big_owl .owl-nav {
+        top: 50% !important;
+    }
+}
+.Germinar_section {
+    text-align: center;
+
+    h3 {
+        font-family: 'NimbusSanL';
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #84AF9C;
+        border-top: 6px solid #84AF9C;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    p {
+        font-family: 'NimbusSanL';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33.3px;
+    }
+    .b_bottom {
+        border-bottom: 1px solid #000;
+    }
+    .owl-carousel {
+        border-bottom: 1px solid #000;
+    }
+    .owl-carousel .owl-item img {
+        width: auto;
+        filter: grayscale(100%);
+        margin: 0 auto;
+    }
+}
+
+
+
+
+

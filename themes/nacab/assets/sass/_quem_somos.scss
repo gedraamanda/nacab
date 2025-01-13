@@ -1,0 +1,220 @@
+.quem_section {
+    background: $box-background;
+
+    h2 {
+        color: #6AB2CE;
+        text-transform: uppercase;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 40.8px;
+        text-align: center;
+        font-family: 'NimbusSanL';
+    }
+    h3 {
+        color: #6AB2CE;
+        text-transform: uppercase;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 31.2px;
+        text-align: right;
+        font-family: 'NimbusSanL';
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+
+        li {
+            display: inline-block;
+            padding: 0 8px;
+
+            a {
+                color: $menu_color;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 41.76px;
+                text-align: center;
+                font-family: 'NimbusSanL';
+                text-decoration: none;
+                letter-spacing: 0.2px;
+                transition: .3s;
+
+               &:hover {
+                    color: $menu_hover_color;
+                } 
+            }
+        }
+    }
+}
+
+.menu_quem {
+    border-top: 6px solid #6AB2CE;
+    border-bottom: 1px solid #000;
+}
+.quem_section .row {
+    align-items: center;
+}
+.banner img {
+	width: 100%;
+}
+#banner_contant {
+    background: $box-background;
+}
+.banner_contant {
+    align-items: flex-start !important;
+
+    h5 {
+        font-family: 'Georgia';
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 47.25px;
+        text-align: left;
+        color: $primary-color;
+    }
+    h6 {
+        font-family: 'NimbusSanL';
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 39.2px;
+        text-align: left;
+        color: $primary-color;
+        border-bottom: 1px solid #000;
+        width: 90%;
+    }
+    a {
+        font-size: 14px !important;
+        line-height: 16.8px !important;
+        letter-spacing: 0.05em;
+        padding: 2px 12px !important;
+        border-radius: 100px;
+        text-transform: uppercase;
+        position: unset !important;
+
+        &:hover {
+            color: #fff;
+            background: $button_background_hover;
+        }
+    }
+
+}
+.banner_a {
+    border-right: 1px solid #000;
+}
+.m_top {
+    margin-top: -20px !important;
+}
+.missao_section .row {
+    align-items: center;
+
+    h4 {
+        font-family: 'NimbusSanL';
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 46.8px;
+        color: #000;
+        margin-left: 104px;
+        width: 70%;
+
+        &:not(.visao) {
+            width: 75%;
+            margin-left: 10px;
+        }
+    }
+}
+.missao_section_a {
+    position: relative;
+    padding: 0;
+
+    img {
+        width: 100%;
+    }
+
+
+}
+.missao_section {
+    width: 100%;
+    overflow: hidden;
+}
+
+#quem_post {
+	
+	a {
+        background: $button_background;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'NimbusSanL';
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 33.6px;
+        padding: 4px 0px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        width: 160px;
+        text-align: center;
+        z-index: 1;
+
+        &:hover {
+            color: #fff;
+            background: $button_background_hover;
+        }
+    }
+}
+
+.Valores_section {
+	
+	ul {
+        list-style: none;
+        text-align: center;
+        padding-left: 0;
+
+	    li {
+            font-family: 'Georgia';
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 41.8px;
+            letter-spacing: 0.03em;
+            text-align: center;
+            display: inline-block;
+            text-transform: uppercase;
+
+            a {
+                font-family: 'Georgia' !important;
+                font-size: 19px !important;
+                font-weight: 400 !important;
+                line-height: 41.8px !important;
+                letter-spacing: 0.03em !important;
+                text-align: center !important;
+                display: inline-block !important;
+                text-transform: uppercase !important;
+                position: unset !important;
+                width: unset !important;
+                background: unset !important;
+                color: #000 !important;
+                text-decoration: underline !important;
+            }
+
+            span {
+                text-transform: capitalize;
+            }
+        }
+	}
+}
+.Valores_section li + li:before {
+    content: " | ";
+    padding: 0 6px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
