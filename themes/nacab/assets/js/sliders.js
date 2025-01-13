@@ -5,6 +5,7 @@ $(document).ready(function () {
             loop: true,
             margin: 10,
             responsiveClass: true,
+            navText: ["<img src='https://sitesupportplus.com/nacab/img/left_icon.svg'>", "<img src='https://sitesupportplus.com/nacab/img/right_icon.svg'>"],
             responsive: {
                 0: {
                     items: 1,
