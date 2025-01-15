@@ -20,8 +20,8 @@ get_header();
 
 						<div class="sub">
 							<ul class="sub_menu mx-5">
-								<li class=""><a href="#">Notícias</a></li>
-								<li><a href="#">Sobre</a></li>
+								<li class=""><a href="#" class="ativo">Notícias</a></li>
+								<li><a href="#" class="">Sobre</a></li>
 								<li><a href="#">Linha do tempo</a></li>
 								<li><a href="#">Estudos e publicações</a></li>
 								<li><a href="#">Documentos importantes</a></li>

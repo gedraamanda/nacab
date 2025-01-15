@@ -64,6 +64,11 @@
             &:hover {
                 color: $menu_hover_color !important;
             }
+            
+            &.ativo {
+                color: #000 !important;
+                font-weight: 700 !important;
+            }
         }
     }
 }
