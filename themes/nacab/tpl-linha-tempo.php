@@ -1,71 +1,42 @@
 <?php
 
 
-/* Template Name: paraopeba - linha tempo */
+/* Template Name: Projeto - linha tempo */
 
 get_header();
 ?>
-	<section class="projetos_section pt-2">
-		<div class="container">
-			<h2>projetos</h2>
-			<div class="row">
+    <section class="projetos_section pt-2">
+        <div class="container">
+            <h2>projetos</h2>
+            <div class="row">
 
-				<div class="col-8 mx-auto">
-					<div class="menu_projectos">
-						<ul>
-							<li class="active"><a href="#"><b>Paraopeba</b></a></li>
-							<li><a href="#">Mina do Sapo</a></li>
-							<li><a href="#">Cachoeira Grande</a></li>
-						</ul>
-						<div class="mx-5 px-4">
-							<ul class="sub_menu mx-5">
-								<li class=""><a href="#">Notícias</a></li>
-								<li>
+                <div class="col-sm-10 mx-auto">
+                    <div class="menu_projectos">
+                        <ul class="principal mx-auto" style="--bdc: #84AF9C">
+                            <li class="active"><a href="#"><b>Paraopeba</b></a></li>
+                            <li><a href="#">Mina do Sapo</a></li>
+                            <li><a href="#">Cachoeira Grande</a></li>
+                        </ul>
 
-									<div class="dropdown">
-										<button onclick="openMenuInt()" class="dropbtn">Reparação <img src="<?php echo get_template_directory_uri() ?>/assets/img/dropdown.svg"></button>
-										<div id="myDropdown" class="dropdown-content">
-											<ol id="projetos_dropdown">
-												<li><a class="dropdown-item" href="#">SOBRE</a></li>
-												<li><a class="dropdown-item" href="#">Linha do Tempo</a></li>
-												<li><a class="dropdown-item" href="#">Documentos importantes</a></li>
-												<li><a class="dropdown-item" href="#">Acordo Judicial</a></li>
-												<li><a class="dropdown-item" href="#">Estudos (ERSHRE)</a></li>
-												<li><a class="dropdown-item" href="#">Auditoria AECOM</a></li>
-											</ol>
-										</div>
-									</div>
+                        <div class="sub">
+                            <ul class="sub_menu mx-5">
+                                <li class=""><a href="#">Notícias</a></li>
+                                <li><a href="#" >Sobre</a></li>
+                                <li><a href="#" class="ativo">Linha do tempo</a></li>
+                                <li><a href="#">Estudos e publicações</a></li>
+                                <li><a href="#">Documentos importantes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-
-
-								</li>
-								<li><a href="#">Sobre</a></li>
-								<li><a href="#">Organograma</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
+            </div>
+        </div>
+    </section>
 	<section id="auditoria_contant">
-		<section class="AECOM_section">
-			<div class="container">
-				<div class="row pt-4">
-					<div class="col-sm-2"></div>
-					<div class="col-sm-8 pb-3">
-						<div class="auditoria_title pt-2 pb-4">
-							<a href="#">Linha do tempo</a>
-						</div>
 
-					</div>
-					<div class="col-sm-2"></div>
-				</div>
-			</div>
-		</section>
 
-		<section class="projetos_contant">
+		<section class="projetos_contant pt-5">
 			<div class="container">
 				<div class="row pb-5">
 					<div class="col-sm-8 mx-auto">
