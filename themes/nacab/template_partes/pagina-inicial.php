@@ -66,36 +66,39 @@
                 </div>
             </div>
 
-            <div class="row mt-5 mb-5 px-4 py-4 bg_color" id="box_section">
-                <div class="col-7 px-4 py-3">
-                    <iframe width="600" height="315" src="https://www.youtube.com/embed/HjDSUyE5MBQ?si=28KVTUEG_SEXUCrh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="col-sm-5 pe-5">
-                    <h4 class="mb-4 pt-5 pe-4">O Nacab tem origem em meados dos anos 1990, por iniciativa de um grupo multidisciplinar de professores da Universidade Federal de Viçosa (UFV), na forma de núcleo interdisciplinar de pesquisa, extensão e assessoria a comunidades atingidas por empreendimentos hidrelétricos na Zona da Mata – MG.</h4>
-                    <a class="" href="#">ver todos</a>
+            <div class="mt-5 mb-5 px-5 py-4 bg_color align-items-center" id="box_section">
+                <div class="d-flex align-items-center">
+                    <div class="video">
+                        <iframe width="600" height="315" src="https://www.youtube.com/embed/HjDSUyE5MBQ?si=28KVTUEG_SEXUCrh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="texto">
+                        <h4 class="mb-4">O Nacab tem origem em meados dos anos 1990, por iniciativa de um grupo multidisciplinar de professores da Universidade Federal de Viçosa (UFV), na forma de núcleo interdisciplinar de pesquisa, extensão e assessoria a comunidades atingidas por empreendimentos hidrelétricos na Zona da Mata – MG.</h4>
+                        <a class="" href="#">ver todos</a>
+                    </div>
                 </div>
             </div>
 
             <div class="row post pt-4 pb-5" id="all">
-                <div class="col-sm-6 pe-5">
+                <div class="col-sm-4 offset-md-1">
 
-                    <h4 class="post_category mt-4" style="--cl: #84AF9C"><span class="gry_text">boletim semanal</span> / mina do sapo</h4>
-                    <div class="post_item mt-5 pb-4 me-5">
+                    <h4 class="post_category" style="--cl: #84AF9C"><span class="gry_text">boletim semanal</span> / mina do sapo</h4>
+                    <div class="post_item mt-5 pb-4">
                         <h5 class="post_date gry_text">30 set 5 out</h5>
                         <a href="#"><h3>Moradores de Gondó e Córregos pedem apoio ao Ministério Público para soluções de problemas das comunidades </h3></a>
                     </div>
-                    <div class="post_item mt-5 pb-4 me-5">
+                    <div class="post_item mt-5 pb-4">
                         <h5 class="post_date gry_text">23 set 28 Set</h5>
                         <a href="#"><h3>Shopping da Minhoca e Quilombo da Pontinha receberão o passivo do pagamento emergencial</h3></a>
                     </div>
-                    <div class="post_item mt-5 pb-4 me-5">
+                    <div class="post_item mt-5 pb-4 border-0">
                         <h5 class="post_date gry_text">16 set 20 set</h5>
                         <a href="#"><h3>Pessoas atingidas da Região 3 e Entidade Gestora aprofundam debate sobre a gestão do anexo 1.1 </h3></a>
                     </div>
 
                 </div>
 
-                <div class="col-sm-6">
+                <div class="col-sm-5 offset-md-1">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/post-f.png">
                     </a>
@@ -106,25 +109,28 @@
             </div>
 
             <div class="row mt-5 mb-5 px-4 py-4 bg_color_a" id="box_section">
-                <div class="col-sm-4 px-4 py-3">
-                    <h5 class="video_title mb-3">videos</h5>
-                    <h4 class="mb-4 pe-4">A série “Vozes Atingidas são relatos do Paraopeba, produzida pela ATI Paraopeba Nacab. A série completa com 13 episódios está disponível no nosso canal no youtube</h4>
-                    <a class="" href="#">ver todos</a>
+                <div class="d-flex align-items-center">
+                    <div class="texto">
+                        <h5 class="video_title mb-3">videos</h5>
+                        <h4 class="mb-4 pe-4">A série “Vozes Atingidas são relatos do Paraopeba, produzida pela ATI Paraopeba Nacab. A série completa com 13 episódios está disponível no nosso canal no youtube</h4>
+                        <a class="" href="#">ver todos</a>
+                    </div>
+                    <div class="video">
+                        <iframe width="620" height="340" src="https://www.youtube.com/embed/gVxU2ptRSsA?si=kFmBMsXdg4RLmJDn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
-                <div class="col-8 px-4 py-3" style="text-align: center;">
-                    <iframe width="620" height="340" src="https://www.youtube.com/embed/gVxU2ptRSsA?si=kFmBMsXdg4RLmJDn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+
             </div>
 
             <div class="row pt-4 py-4">
-                <div class="col-sm-6" id="box_section">
+                <div class="col-sm-7" id="box_section">
                     <div class="accordion_img_section">
                         <h3 class="mb-3">reparação da bacia do paraopeba</h3>
                         <a href="#">saiba mais</a>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="accordion_section ms-5">
+                <div class="col-sm-4 offset-md-1">
+                    <div class="accordion_section">
                         <h4><span class="sub_text">documentos importantes</span> / reparação</h4>
 
                         <div class="accordion mt-4 accordion_home" id="accordionExample">
@@ -170,7 +176,7 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingfive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">Estudos de Avaliação de Risco à Saúde Humana e Risco Ecológico
+                                    <button class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">Estudos de Avaliação de Risco à Saúde Humana e Risco Ecológico
                                     </button>
                                 </h2>
                                 <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">

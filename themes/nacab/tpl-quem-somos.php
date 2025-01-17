@@ -10,7 +10,8 @@ get_header();
         <div class="container">
             <h2>quem somos</h2>
             <div class="row">
-                <div class="col-sm-2"><h3>quem somos</h3></div>
+<!--                <div class="col-sm-2"><h3>quem somos</h3></div>-->
+                <div class="col-sm-2"></div>
                 <div class="col-sm-8">
                     <div class="menu_quem">
                         <ul class="d-flex justify-content-between">

@@ -1,16 +1,16 @@
 <header class="my_header <?php echo !is_home() ? 'mb-3' : ''  ?>">
-	<div class="container-flude">
+	<div class="container">
         <?php if(is_home()) { ?>
             <div class="row m-0">
                 <div class="col-sm-2"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/Logo_Nacab_Principal.png"></a></div>
                 <div class="col-sm-8 menu_section">
-                    <nav class="navbar">
+                    <nav class="navbar justify-content-between">
                         <div class="menu">
-                            <ul>
+                            <ul class="">
                                 <li class="menu_a ps-0"><a href="#">quem somos</a></li>
                                 <li class="menu_b"><a href="#">comunicação</a></li>
                                 <li class="menu_c"><a href="#">PROJETOS</a></li>
-                                <li class="menu_d"><a href="#">oportunidades</a></li>
+                                <li class="menu_d me-0"><a href="#">oportunidades</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -55,7 +55,7 @@
 
 		<div class="row m-0 pb-5 toggal_section" id="">
 			<div class="col-sm-2"></div>
-			<div class="col-sm-7 pb-5">
+			<div class="col-sm-8 pb-5">
 				<div class="toggal_menu">
 					<ul>
 						<li class="one">
@@ -92,7 +92,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-sm-3 toggal_social">
+			<div class="col-sm-2 toggal_social">
 				<ul>
 					<li>
 						<ol class="social-media">

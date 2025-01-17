@@ -43,14 +43,15 @@
 }
 #main {
 	h3 {
-	    @include post-title(32px);
-        font-family: 'ArchivoNarrow';
+	    @include post-title(26px);
+        font-family: 'NimbusSanL';
         line-height: 35.2px;
         width: 70%;
 	}
     p {
-        font-family: 'Georgia';
+        font-family: 'NimbusSanL';
         width: 65%;
+      line-height: 120%;
     }
 }
 .space_l {
@@ -101,8 +102,8 @@ div#box_section {
         font-size: 22px;
         font-weight: 700;
         color: $primary-color;
-        font-family: 'ArchivoNarrow';
-        line-height: 27.5px;
+      font-family: 'NimbusSanL';
+        line-height: 120%;
     }
     a {
        color: #fff;
@@ -116,11 +117,27 @@ div#box_section {
        transition: .4s;
        font-family: 'ArchivoNarrow';
        line-height: 18.86px;
+      transform: translateY(-6px);
+      display: inline-block;
 
        &:hover {
           background: $button_background_hover;
        }
     }
+
+  .video {
+    flex: 0 0 650px;
+    height: 356px;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .texto {
+    margin-left: 25px;
+  }
 }
 .bg_color_a h4 {
     font-size: 26px !important;
