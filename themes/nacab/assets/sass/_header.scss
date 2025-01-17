@@ -13,7 +13,7 @@ nav {
     li {
         list-style: none;
         display: inline-block;
-        padding: 0 40px;
+        padding: 0 50px;
     }
 	a {
 	    color: $menu_color !important;
@@ -44,7 +44,9 @@ nav {
     
 }
 .navbar {
-    justify-content: center;
+    @media (min-width: 1600px) {
+        justify-content: center;
+    }
 }
 .menu_section {
     display: grid;
@@ -69,17 +71,38 @@ nav {
 
 
 .toggal_menu {
-    text-align: center;
+    //text-align: center;
     
     ul {
         list-style: none;
+        padding-left: 26px;
+
+        @media (min-width: 1600px) {
+            padding-left: 230px;
+        }
 
         li {
             display: inline-block;
             vertical-align: top;
             border-right: 1px solid #000;
-            padding: 0 10px;
+           // padding: 0 10px;
             height: 244px;
+
+            &.one {
+                padding: 0 40px 0 24px;
+            }
+
+            &.two {
+                padding: 0 25px 0 28px;
+            }
+
+            &.three {
+                padding: 0 19px 0 12px;
+            }
+
+            &.four {
+                padding: 0 25px 0px 19px;
+            }
 
             ol {
                 padding: 0;
@@ -90,7 +113,7 @@ nav {
                     border: none;
                     border-bottom: 1px solid #000;
                     height: auto;
-                    padding: 6px 20px 6px;
+                    padding: 6px 10px 6px;
 
                     a {
                         color: $menu_color;
@@ -110,7 +133,10 @@ nav {
 }
 
 .toggal_social {
-    
+    @media (min-width: 1600px) {
+        transform: translateX(-80px);
+    }
+
     ul {
         list-style: none;
         padding: 0;

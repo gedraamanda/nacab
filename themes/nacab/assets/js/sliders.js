@@ -171,4 +171,88 @@ $(document).ready(function () {
     }
 
 
+    $('.owl_one').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: ["<img src='https://sitesupportplus.com/nacab/img/left_icon.svg'>","<img src='https://sitesupportplus.com/nacab/img/right_icon.svg'>"],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            400: {
+                items: 1,
+                nav: false
+            },
+            600: {
+                items: 1,
+                nav: false
+            },
+            1000: {
+                items: 1,
+                nav: true,
+                loop: true,
+                margin: 20
+            }
+        }
+    });
+
+    $('.owl_two').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: ["<img src='https://sitesupportplus.com/nacab/img/left_icon.svg'>","<img src='https://sitesupportplus.com/nacab/img/right_icon.svg'>"],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            400: {
+                items: 1,
+                nav: false
+            },
+            600: {
+                items: 1,
+                nav: false
+            },
+            1000: {
+                items: 5,
+                nav: true,
+                loop: true,
+                margin: 20
+            }
+        }
+    })
+
+    $('.owl_three').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: ["<img src='https://sitesupportplus.com/nacab/img/left_icon.svg'>","<img src='https://sitesupportplus.com/nacab/img/right_icon.svg'>"],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            400: {
+                items: 1,
+                nav: false
+            },
+            600: {
+                items: 1,
+                nav: false
+            },
+            1000: {
+                items: 2,
+                nav: true,
+                loop: true,
+                margin: 20
+            }
+        }
+    })
+
 });
