@@ -14,8 +14,8 @@ get_header();
 		<div class="container">
 			<h2>quem somos</h2>
 			<div class="row">
-				<div class="col-sm-2"><h3>quem somos</h3></div>
-				<div class="col-sm-8">
+
+				<div class="col-sm-8 mx-auto">
 					<div class="menu_quem">
 						<ul class="d-flex justify-content-between">
 							<li><a href="#">A Instituição</a></li>
@@ -26,7 +26,7 @@ get_header();
 						</ul>
 					</div>
 				</div>
-				<div class="col-sm-3"></div>
+
 			</div>
 		</div>
 	</section>
@@ -45,43 +45,99 @@ get_header();
 				</div>
 
 				<div class="row pt-5">
-					<div class="col-sm-8 mx-auto">
+					<div class="col-sm-6 mx-auto">
 						<a href="#">Transparência</a>
 						<p class="pt-5 pb-4">Zelando pelos princípios de integridade e transparência, o Núcleo de Assessoria às Comunidades Atingidas por Barragens (Nacab) torna públicos:</p>
-						<button>RPCC - Regulamento de Princípios de Compras e Contratações</button>
-						<ul class="mt-4">
-							<li>
-								<img src="<?php echo get_template_directory_uri() ?>/assets/img/doc_icone.png">
-								<h4 class="pt-2"><a href="#">março/2023</a></h4>
-								<h4>[vigente]</h4>
-							</li>
-							<li>
-								<img src="<?php echo get_template_directory_uri() ?>/assets/img/doc_icone.png">
-								<h4 class="pt-2"><a href="#">Abril/2020</a></h4>
-								<h4>[Revogado]</h4>
-							</li>
-							<li>
-								<img src="<?php echo get_template_directory_uri() ?>/assets/img/doc_icone.png">
-								<h4 class="pt-2"><a href="#">agosto/2020</a></h4>
-								<h4>[Revogado]</h4>
-							</li>
-						</ul>
-						<div class="mt-5 mb-5">
-							<div class="dropdown pb-5">
-								<button onclick="openAtos()" class="dropbutton">ATOS / ano <img src="<?php echo get_template_directory_uri() ?>/assets/img/dropdown.svg"></button>
-								<div id="myDropdown" class="dropdown-content">
-									<ol id="atos_dropdown">
-										<li><a class="dropdown-item" href="#">ATOS 2020</a></li>
-										<li><a class="dropdown-item" href="#">ATOS 2021</a></li>
-										<li><a class="dropdown-item" href="#">ATOS 2022</a></li>
-										<li><a class="dropdown-item" href="#">ATOS 2023</a></li>
-										<li><a class="dropdown-item" href="#">ATOS 2024</a></li>
-									</ol>
-								</div>
-							</div>
-						</div>
+
+                        <p class="titulo py-1">RPCC - Regulamento de Princípios de Compras e Contratações</p>
+
+
+                        <div class="information_accorion mb-5">
+                            <div class="accordion mt-4" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Março/2023 [Vigente]
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">O rompimento da barragem BI, da mina do Córrego do Feijão, da empresa Vale S.A, em Brumadinho (2019), lançou uma grande quantidade de rejeito de minério no ambiente, atingindo o rio Paraopeba. Frente a essa realidade, Estudos de Avaliação de Risco à Saúde Humana e Risco Ecológico (ERSHRE) foram demandados por órgãos de saúde e meio ambiente do Estado de Minas Gerais, em parceria com as Instituições de Justiça, visto os potenciais riscos e impactos que a exposição ao rejeito de minério pode causar à saúde das pessoas, bem como ao meio ambiente.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Março/2020 [Vigente]
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">Março/2020 [Vigente]
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
 					</div>
 				</div>
+
+                <div class="row pt-4">
+                    <div class="col-sm-6 mx-auto">
+                        <p class="titulo py-1 px-3 d-table-cell">ATOS / ano</p>
+
+
+                        <div class="information_accorion mb-5">
+                            <div class="accordion mt-4" id="accordionExample2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne2">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne">ATOS 2020
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">O rompimento da barragem BI, da mina do Córrego do Feijão, da empresa Vale S.A, em Brumadinho (2019), lançou uma grande quantidade de rejeito de minério no ambiente, atingindo o rio Paraopeba. Frente a essa realidade, Estudos de Avaliação de Risco à Saúde Humana e Risco Ecológico (ERSHRE) foram demandados por órgãos de saúde e meio ambiente do Estado de Minas Gerais, em parceria com as Instituições de Justiça, visto os potenciais riscos e impactos que a exposição ao rejeito de minério pode causar à saúde das pessoas, bem como ao meio ambiente.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo2">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo">ATOS 2021
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree2">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree2" aria-expanded="false" aria-controls="collapseTwo">ATOS 2022
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree2" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
 			</div>
 		</section>
 
@@ -118,56 +174,6 @@ get_header();
 			</div>
 		</section>
 
-		<section class="affected_dams mb-5">
-			<div class="container pb-5">
-				<div class="row mx-5">
-					<div class="col-sm-2 px-5"></div>
-					<div class="col-sm-8 px-5">
-						<div class="dams">
-							<h4>Núcleo de Assessoria às Comunidades Atingidas por Barragens</h4>
-							<p>R. Santo Antônio, Nº 30, Apto 2, Bairro João Braz - Viçosa/MG | CEP 36576-208</p>
-							<ul>
-								<li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/mail.svg"> contato@nacab.org.br</a></li>
-								<li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/telefone.svg"> (31) 99560-7244</a></li>
-							</ul>
-						</div>
-						<div class="dams mt-2 pt-1">
-							<h5>ATI Paraopeba Nacab</h5>
-							<ul>
-								<li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/whatsapp.svg"> Atendimento pessoas atingidas (Chip Dúvidas) - (31) 99596-9065</a></li>
-							</ul>
-						</div>
-						<div class="dams mt-2 pt-1">
-							<h5>Escritório Esmeraldas</h5>
-							<p>R. Senador Melo Viana, nº 158, 2º andar, Centro</p>
-							<p>Esmeraldas/MG | CEP 32800-098</p>
-						</div>
-						<div class="dams mt-2 pt-1">
-							<h5>Escritório Pará de Minas</h5>
-							<p>Rua Minas Gerais, Nº 413, Bairro São José</p>
-							<p>Pará de Minas/MG | CEP: 35660-116</p>
-						</div>
-						<div class="dams mt-2 pt-1">
-							<h5>Escritório Paraopeba</h5>
-							<p>Av. Dom Cirilo, Nº 609, Centro</p>
-							<p>Paraopeba/MG | CEP: 35774-000</p>
-						</div>
-						<div class="dams border_remove mt-2 pt-1">
-							<h5>Escritório Belo Horizonte</h5>
-							<p>R. Bueno Brandão, Nº 351, Bairro Santa Tereza</p>
-							<p>Belo Horizonte/MG | CEP 31010-060</p>
-							<p class="ps-5">(31) 3245-8059</p>
-						</div>
-						<div class="dams border_remove my-5 pt-1 pb-5">
-							<h4>ATI 39</h4>
-							<p>R. Capitão Miguel Safe, Nº 180, Centro</p>
-							<p>Conceição do Mato Dentro/MG | CEP 35860-000</p>
-						</div>
-					</div>
-					<div class="col-sm-2 px-5"></div>
-				</div>
-			</div>
-		</section>
 
 
 	</section>

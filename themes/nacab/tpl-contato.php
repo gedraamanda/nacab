@@ -14,8 +14,8 @@ get_header();
 		<div class="container">
 			<h2>quem somos</h2>
 			<div class="row">
-				<div class="col-sm-2"><h3>quem somos</h3></div>
-				<div class="col-sm-8">
+
+				<div class="col-sm-8 mx-auto">
 					<div class="menu_quem">
 						<ul class="d-flex justify-content-between">
 							<li><a href="#">A Instituição</a></li>
@@ -26,7 +26,7 @@ get_header();
 						</ul>
 					</div>
 				</div>
-				<div class="col-sm-3"></div>
+
 			</div>
 		</div>
 	</section>

@@ -13,10 +13,6 @@ $(document).ready(function () {
     });
 });
 
-/* Dropdown button */
-function openAtos() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
 
 
 // Close the dropdown if the user clicks outside of it
