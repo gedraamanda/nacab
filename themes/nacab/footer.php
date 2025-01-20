@@ -5,7 +5,7 @@
                 <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo_preto.png"></a>
             </div>
             <div class="col-sm-8 footer_menu">
-                <ul>
+                <ul class="d-flex justify-content-between">
                     <li><a href="#">quem somos</a></li>
                     <li><a href="#">comunicação</a></li>
                     <li><a href="#">paraopeba</a></li>

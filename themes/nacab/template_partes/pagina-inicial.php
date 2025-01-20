@@ -39,7 +39,7 @@
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/post-c.png">
                     </a>
                 </div>
-                <div class="col-sm-6 pe-5">
+                <div class="col-sm-4">
                     <h4 class="post_category" style="--cl: #84AF9C">cachoeira grande</h4>
                     <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
                     <p>De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
@@ -51,18 +51,25 @@
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/post-e.png">
                     </a>
-                    <h4 class="post_category mt-4" style="--cl: #84AF9C">cachoeira grande</h4>
-                    <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
-                    <p>De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
+
+                    <div class="home-card-texto">
+                        <h4 class="post_category mt-4" style="--cl: #84AF9C">acachoeira grande</h4>
+                        <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
+                        <p>De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
+                    </div>
+
                 </div>
 
                 <div class="col-sm-6 ps-5 top_margin">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/post-d.png">
                     </a>
-                    <h4 class="post_category mt-4" style="--cl: #84AF9C">PARAOPEBA</h4>
-                    <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
-                    <p>De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
+
+                    <div class="home-card-texto">
+                        <h4 class="post_category mt-4" style="--cl: #84AF9C">acachoeira grande</h4>
+                        <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
+                        <p>De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
+                    </div>
                 </div>
             </div>
 
