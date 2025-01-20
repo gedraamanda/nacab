@@ -53,7 +53,7 @@ get_header();
                 <div class="pt-4">
                     <a href="#">Missão</a>
                     <div class="row">
-                        <div class="col-sm-6 missao_section_a">
+                        <div class="col-sm-6 missao_section_a pe-0">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/FT_BRUMADINHO.jpg">
                         </div>
                         <div class="col-sm-6 pe-5">
@@ -84,10 +84,10 @@ get_header();
             <div class="container">
                 <a href="#">Visão</a>
                 <div class="row">
-                    <div class="col-sm-6 px-5">
+                    <div class="col-sm-6">
                         <h4 class="visao">Focado na missão, ser uma instituição de referência em todo o território nacional, promovendo a defesa do meio ambiente, soluções economicamente justas e viáveis e o direito humano à dignidade e a vida.</h4>
                     </div>
-                    <div class="col-sm-6 missao_section_a">
+                    <div class="col-sm-6 missao_section_a ps-0">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/FT_BRUMADINHO_a.jpg">
                     </div>
                 </div>
