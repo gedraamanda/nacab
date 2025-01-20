@@ -43,23 +43,23 @@ get_header();
 								<li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/telefone.svg"> (31) 99560-7244</a></li>
 							</ul>
 						</div>
-						<div class="dams mt-2 pt-1">
-							<h5>ATI Paraopeba Nacab</h5>
+						<div class="dams">
+							<h5>ATI Paraopeba Nacab</ (31) 99560-7244h5>
 							<ul>
 								<li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/whatsapp.svg"> Atendimento pessoas atingidas (Chip Dúvidas) - (31) 99596-9065</a></li>
 							</ul>
 						</div>
-						<div class="dams mt-2 pt-1">
+						<div class="dams">
 							<h5>Escritório Esmeraldas</h5>
 							<p>R. Senador Melo Viana, nº 158, 2º andar, Centro</p>
 							<p>Esmeraldas/MG | CEP 32800-098</p>
 						</div>
-						<div class="dams mt-2 pt-1">
+						<div class="dams">
 							<h5>Escritório Pará de Minas</h5>
 							<p>Rua Minas Gerais, Nº 413, Bairro São José</p>
 							<p>Pará de Minas/MG | CEP: 35660-116</p>
 						</div>
-						<div class="dams mt-2 pt-1">
+						<div class="dams">
 							<h5>Escritório Paraopeba</h5>
 							<p>Av. Dom Cirilo, Nº 609, Centro</p>
 							<p>Paraopeba/MG | CEP: 35774-000</p>
@@ -68,9 +68,9 @@ get_header();
 							<h5>Escritório Belo Horizonte</h5>
 							<p>R. Bueno Brandão, Nº 351, Bairro Santa Tereza</p>
 							<p>Belo Horizonte/MG | CEP 31010-060</p>
-							<p class="ps-5">(31) 3245-8059</p>
+							<p class=""><img src="<?php echo get_template_directory_uri() ?>/assets/img/telefone.svg">  (31) 3245-8059</p>
 						</div>
-						<div class="dams border_remove my-5 pt-1 pb-5">
+						<div class="dams my-5">
 							<h4>ATI 39</h4>
 							<p>R. Capitão Miguel Safe, Nº 180, Centro</p>
 							<p>Conceição do Mato Dentro/MG | CEP 35860-000</p>
