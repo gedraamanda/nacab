@@ -3,11 +3,13 @@
  */
 $(document).ready(function () {
 
-    $( ".toggal_btn" ).click( function() {
+    $( ".toggal_btn" ).click( function(e) {
+        e.preventDefault();
         $( ".menu-hide" ).addClass( "open" );
     });
 
-    $( ".menu-hide .close" ).click( function() {
+    $( ".menu-hide .close" ).click( function(e) {
+        e.preventDefault();
         $( ".menu-hide" ).removeClass( "open" );
     });
     //

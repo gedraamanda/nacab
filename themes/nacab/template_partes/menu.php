@@ -106,7 +106,7 @@
             <div class="col-sm-1 ">
                 <ul class="toggal_social">
                     <li>
-                        <ol class="social-media">
+                        <ol class="social-media d-flex flex-column align-items-center">
                             <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/mail.svg"></a></li>
                             <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/insta.svg"></a></li>
                             <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/fb.svg"></a></li>

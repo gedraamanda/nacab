@@ -110,11 +110,11 @@ nav {
                 &:after {
                     content: "";
                     width: 1px;
-                    height: calc(100% - 50px);
+                    height: calc(100% - 10px);
                     background: #000;
                     display: block;
                     position: absolute;
-                    bottom: 0;
+                    bottom: -42px;
                     right: -40px;
                 }
             }
