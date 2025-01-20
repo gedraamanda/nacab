@@ -13,9 +13,6 @@ nav {
     li {
         list-style: none;
         display: inline-block;
-        //padding: 0 50px;
-        margin-right: 90px;
-        width: 120px;
     }
 	a {
 	    color: $menu_color !important;
@@ -78,36 +75,93 @@ nav {
 
 .toggal_menu {
     //text-align: center;
+
+    .ref {
+        display: inline-block;
+        a {
+            color: $menu_color !important;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-family: 'NimbusSanL';
+            transition: 0.3s;
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+
+            &:hover {
+                color: $menu_hover_color !important;
+            }
+        }
+    }
     
     ul {
         list-style: none;
         padding-left: 0px;
 
-        @media (min-width: 1600px) {
-            padding-left: 230px;
-        }
 
         li {
             display: inline-block;
             vertical-align: top;
-            border-right: 1px solid #000;
-           // padding: 0 10px;
-            height: 244px;
+            text-align: center;
+            position: relative;
+
+            &.bd {
+                &:after {
+                    content: "";
+                    width: 1px;
+                    height: calc(100% - 50px);
+                    background: #000;
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    right: -40px;
+                }
+            }
+
 
             &.one {
-                padding: 0 20px 0 4px;
+
+
+                .ref {
+                    a {
+                        border-bottom: 5px solid #6ab2ce;
+                        padding-bottom: 5px;
+                    }
+                }
             }
 
             &.two {
-                padding: 0 17px 0 15px;
+
+
+                .ref {
+                    a {
+                        border-bottom: 5px solid #d27f67;
+                        padding-bottom: 5px;
+                    }
+                }
             }
 
             &.three {
-                padding: 0 15px 0 11px;
+
+
+                .ref {
+                    a {
+                        border-bottom: 5px solid #84af9c;
+                        padding-bottom: 5px;
+                    }
+                }
             }
 
             &.four {
-                padding: 0 10px 0 10px;
+
+
+                .ref {
+                    a {
+                        border-bottom: 5px solid #6c9;
+                        padding-bottom: 5px;
+                    }
+                }
             }
 
             ol {
@@ -141,29 +195,23 @@ nav {
 }
 
 .toggal_social {
-    @media (min-width: 1600px) {
-        transform: translateX(-80px);
-    }
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0 50px;
 
-    ul {
-        list-style: none;
-        padding: 0;
+    li {
 
-        li {
-
-            ol {
-                list-style: none;
-                padding-left: 0px;
-            }
+        ol {
+            list-style: none;
+            padding-left: 0px;
         }
     }
+
 }
 img.close {
     display: none;
 }
-.header_bg img.open {
-    display: none;
-}
+
 .header_bg img.close {
     display: block;
     position: absolute;
@@ -195,18 +243,34 @@ img.close {
     }
 }
 
-.toggal_section {
-    display: none;
-    //position: absolute;
+.menu-hide {
+    //display: none;
+    position: absolute;
     width: 100%;
     left: 0;
+    top: 0px;
     background: $box-background;
     //z-index: 999;
+    transform-origin: 0% 0%;
+    transform: translate(0, -200%);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+
+    &.open {
+        transform: none;
+    }
+
+    .close {
+        background: url(assets/img/menu_close.svg);
+        width: 21px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
 }
 
-.toggal_section.toggle_open {
-    display: flex;
-}
 .toggal_a li {
     border-color: #6AB2CE !important;
 }

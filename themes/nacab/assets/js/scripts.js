@@ -4,13 +4,17 @@
 $(document).ready(function () {
 
     $( ".toggal_btn" ).click( function() {
-        $( ".toggal_section" ).toggleClass( "toggle_open" );
+        $( ".menu-hide" ).addClass( "open" );
     });
 
-
-    $( ".toggal_btn" ).click( function() {
-        $( ".my_header" ).toggleClass( "header_bg" );
+    $( ".menu-hide .close" ).click( function() {
+        $( ".menu-hide" ).removeClass( "open" );
     });
+    //
+    //
+    // $( ".toggal_btn" ).click( function() {
+    //     $( ".my_header" ).toggleClass( "header_bg" );
+    // });
 });
 
 
