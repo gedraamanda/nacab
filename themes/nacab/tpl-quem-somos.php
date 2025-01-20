@@ -49,17 +49,20 @@ get_header();
         </section>
 
         <section class="missao_section my-5">
-            <div class="pt-4">
-                <a href="#">Missão</a>
-                <div class="row">
-                    <div class="col-sm-6 missao_section_a">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/FT_BRUMADINHO.jpg">
-                    </div>
-                    <div class="col-sm-6 pe-5">
-                        <h4>Defender e aprofundar os direitos individuais, sociais e difusos, como instrumento de reforço da solidariedade social, da saúde, dos direitos humanos, do patrimônio cultural, histórico e artístico.</h4>
+            <div class="container">
+                <div class="pt-4">
+                    <a href="#">Missão</a>
+                    <div class="row">
+                        <div class="col-sm-6 missao_section_a">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/FT_BRUMADINHO.jpg">
+                        </div>
+                        <div class="col-sm-6 pe-5">
+                            <h4>Defender e aprofundar os direitos individuais, sociais e difusos, como instrumento de reforço da solidariedade social, da saúde, dos direitos humanos, do patrimônio cultural, histórico e artístico.</h4>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
         <section class="Valores_section py-4">
             <div class="container">
@@ -78,7 +81,7 @@ get_header();
             </div>
         </section>
         <section class="missao_section my-5">
-            <div class="">
+            <div class="container">
                 <a href="#">Visão</a>
                 <div class="row">
                     <div class="col-sm-6 px-5">
