@@ -9,8 +9,8 @@ get_header();
 		<div class="container">
 			<h2>comunicação</h2>
 			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
+
+				<div class="col-sm-8 mx-auto">
 					<div class="menu_comunicacao">
 						<ul class="d-flex justify-content-between">
 							<li><a href="#">Últimas notícias</a></li>
@@ -21,7 +21,7 @@ get_header();
 						</ul>
 					</div>
 				</div>
-				<div class="col-sm-2"></div>
+
 			</div>
 		</div>
 	</section>
@@ -31,12 +31,12 @@ get_header();
 		<div class="container">
 			<div class="">
 				<div class="row">
-					<div class="col-sm-2"></div>
-					<div class="col-sm-8 menu_contant py-5">
+
+					<div class="col-sm-8 menu_contant py-5 mx-auto">
 						<h5 class="pb-4">Essa área é dedicada exclusivamente para o atendimento à imprensa. Confira abaixo os contatos para assessoria de imprensa, acesse a nossa galeria de imagens e confira as últimas notícias publicadas.</h5>
 						<a href="#">Acesse aqui o nosso Flickr<span class="ps-1"><img src="<?php echo get_template_directory_uri() ?>/assets/img/fl.svg"></span></a>
 					</div>
-					<div class="col-sm-2"></div>
+
 				</div>
 			</div>
 		</div>
@@ -70,15 +70,15 @@ get_header();
 				</div>
 				<div class="mt-0 pb-5">
 					<div class="row pb-5">
-						<div class="col-sm-2"></div>
-						<div class="col-sm-8 mt-1 owl_thumbnail_slider">
+
+						<div class="col-sm-8 mx-auto mt-1 owl_thumbnail_slider">
 							<dialog id="lightbox">
 								<img/>
 								<button id="lightbox-close-button">close</button>
 							</dialog>
 
 							<div id="sync1" class="owl-carousel owl-theme mt-4 px-5">
-								<div class="item mx-5">
+								<div class="item mx-5 px-5">
 									<div class="img_lightbox">
 										<a class="lightbox-link" href="<?php echo get_template_directory_uri() ?>/assets/img/galeria-a.jpg">
 											<img src="<?php echo get_template_directory_uri() ?>/assets/img/galeria-a.jpg">
@@ -134,7 +134,7 @@ get_header();
 
 
 						</div>
-						<div class="col-sm-2"></div>
+
 					</div>
 				</div>
 			</div>

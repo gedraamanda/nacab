@@ -104,51 +104,51 @@ get_header();
 				<div class="row">
 					<div class="col-sm-4">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/MINA_a.jpg">
-						<h4 class="pe-4"><a href="#">Comunidades da ZAS enviam carta à Anglo American solicitando mais prazo para as negociações</a></h4>
+						<h4 class="pe-0"><a href="#">Comunidades da ZAS enviam carta à Anglo American solicitando mais prazo para as negociações</a></h4>
 						<p class="pt-2">/  5.11.2024</p>
 					</div>
 					<div class="col-sm-4">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/MINA_b.jpg">
-						<h4 class="pe-4"><a href="#">Córregos celebra com canto e dança a fé em Nossa Senhora do Rosário</a></h4>
+						<h4 class="pe-0"><a href="#">Córregos celebra com canto e dança a fé em Nossa Senhora do Rosário</a></h4>
 						<p class="pt-2">/  5.11.2024</p>
 					</div>
 					<div class="col-sm-4">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/MINA_c.jpg">
-						<h4 class="pe-4"><a href="#">Celebração à Nossa Senhora da Aparecida dos Córregos</a></h4>
+						<h4 class="pe-0"><a href="#">Celebração à Nossa Senhora da Aparecida dos Córregos</a></h4>
 						<p class="pt-2">/  5.11.2024</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-4">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/dummy.jpg">
-						<h4 class="pe-4"><a href="#">Córregos celebra com canto e dança a fé em Nossa Senhora do Rosário </a></h4>
+						<h4 class="pe-0"><a href="#">Córregos celebra com canto e dança a fé em Nossa Senhora do Rosário </a></h4>
 						<p class="pt-2">/  5.11.2024</p>
 					</div>
 					<div class="col-sm-4">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/dummy.jpg">
-						<h4 class="pe-4"><a href="#">Comunidades da ZAS enviam carta à Anglo American solicitando mais prazo para as negociações</a></h4>
+						<h4 class="pe-0"><a href="#">Comunidades da ZAS enviam carta à Anglo American solicitando mais prazo para as negociações</a></h4>
 						<p class="pt-2">/  5.11.2024</p>
 					</div>
 					<div class="col-sm-4">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/dummy.jpg">
-						<h4 class="pe-4"><a href="#">Celebração à Nossa Senhora da Aparecida dos Córregos</a></h4>
+						<h4 class="pe-0"><a href="#">Celebração à Nossa Senhora da Aparecida dos Córregos</a></h4>
 						<p class="pt-2">/  5.11.2024</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-4">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/dummy.jpg">
-						<h4 class="pe-4"><a href="#">Córregos celebra com canto e dança a fé em Nossa Senhora do Rosário </a></h4>
+						<h4 class="pe-0"><a href="#">Córregos celebra com canto e dança a fé em Nossa Senhora do Rosário </a></h4>
 						<p class="pt-2">/  5.11.2024</p>
 					</div>
 					<div class="col-sm-4">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/dummy.jpg">
-						<h4 class="pe-4"><a href="#">Comunidades da ZAS enviam carta à Anglo American solicitando mais prazo para as negociações</a></h4>
+						<h4 class="pe-0"><a href="#">Comunidades da ZAS enviam carta à Anglo American solicitando mais prazo para as negociações</a></h4>
 						<p class="pt-2">/  5.11.2024</p>
 					</div>
 					<div class="col-sm-4">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/img/dummy.jpg">
-						<h4 class="pe-4"><a href="#">Celebração à Nossa Senhora da Aparecida dos Córregos</a></h4>
+						<h4 class="pe-0"><a href="#">Celebração à Nossa Senhora da Aparecida dos Córregos</a></h4>
 						<p class="pt-2">/  5.11.2024</p>
 					</div>
 				</div>

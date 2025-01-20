@@ -5,7 +5,7 @@
 
         a {
             font-family: 'NimbusSanL';
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 700;
             line-height: 26.4px;
             text-align: left;
@@ -82,9 +82,12 @@
             font-family: 'NimbusSanL';
             font-size: 16px;
             font-weight: 700;
-            line-height: 19.2px;
+            line-height: 120%;
             color: #000;
             text-decoration: none;
+            display: block;
+            width: 85%;
+            margin-top: 12px;
 
             &:hover {
                 color: $title_hover_color;

@@ -36,18 +36,20 @@ get_header();
                         </a>
                     </div>
                     <div class="col-sm-6 pe-5">
-                        <div class="d-flex align-items-center">
-                            <h4 class="post_category me-3" style="--cl: #D27F67">institucional</h4>
+                        <div class="home-card-texto">
+                            <div class="d-flex align-items-center">
+                                <h4 class="post_category me-3" style="--cl: #D27F67">institucional</h4>
 
 
-                            <p class="cat-date m-0">/  5.11.2024</p>
-                        </div>
+                                <p class="cat-date m-0">/  5.11.2024</p>
+                            </div>
 
-                        <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
-                        <p class="m-0 mt-3">De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
+                            <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
+                            <p class="m-0 mt-3">De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
 
-                        <div class="tag d-flex mt-3">
-                            <a href="" style="--bgt: #D27F67">agroecologia</a>
+                            <div class="tag d-flex mt-3">
+                                <a href="" style="--bgt: #D27F67">agroecologia</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -57,36 +59,41 @@ get_header();
                         <a href="#">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/post-e.png">
                         </a>
-                        <div class="d-flex align-items-center mt-4">
-                            <h4 class="post_category me-3" style="--cl: #D27F67">institucional</h4>
+                        <div class="home-card-texto">
+                            <div class="d-flex align-items-center mt-4">
+                                <h4 class="post_category me-3" style="--cl: #D27F67">institucional</h4>
 
 
-                            <p class="cat-date m-0">/  5.11.2024</p>
+                                <p class="cat-date m-0">/  5.11.2024</p>
+                            </div>
+                            <a href="#"><h3>Luta coletiva tem vitória contra a mineração em Teixeiras, na Zona da Mata</h3></a>
+                            <p class="m-0 mt-3">De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
+
+                            <div class="tag d-flex mt-3">
+                                <a href="" class="me-2" style="--bgt: #D27F67">agroecologia</a>
+                                <a href="" class="me-2" style="--bgt: #D27F67">agroecologia</a>
+                            </div>
                         </div>
-                        <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
-                        <p class="m-0 mt-3">De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
 
-                        <div class="tag d-flex mt-3">
-                            <a href="" class="me-2" style="--bgt: #D27F67">agroecologia</a>
-                            <a href="" class="me-2" style="--bgt: #D27F67">agroecologia</a>
-                        </div>
                     </div>
 
                     <div class="col-sm-6 ps-5 top_margin">
                         <a href="#">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/post-d.png">
                         </a>
-                        <div class="d-flex align-items-center mt-4">
-                            <h4 class="post_category me-3" style="--cl: #D27F67">institucional</h4>
+                        <div class="home-card-texto">
+                            <div class="d-flex align-items-center mt-4">
+                                <h4 class="post_category me-3" style="--cl: #D27F67">institucional</h4>
 
 
-                            <p class="cat-date m-0">/  5.11.2024</p>
-                        </div>
-                        <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
-                        <p class="m-0 mt-3">De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
+                                <p class="cat-date m-0">/  5.11.2024</p>
+                            </div>
+                            <a href="#"><h3>Representantes de Povos e Comunidades Tradicionais da Região 3 aprendem sobre o uso do bambu</h3></a>
+                            <p class="m-0 mt-3">De cada quatro decisões, três foram desfavoráveis aos atingidos pela rompimento da barragem da mineradora Vale</p>
 
-                        <div class="tag d-flex mt-3">
-                            <a href="" style="--bgt: #D27F67">agroecologia</a>
+                            <div class="tag d-flex mt-3">
+                                <a href="" style="--bgt: #D27F67">agroecologia</a>
+                            </div>
                         </div>
                     </div>
                 </div>

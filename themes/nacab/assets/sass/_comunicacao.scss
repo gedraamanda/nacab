@@ -184,8 +184,10 @@
         font-family: 'NimbusSanL';
         font-size: 16px;
         font-weight: 700;
-        line-height: 19.2px;
+        line-height: 120%;
         color: $primary-color;
+        display: block;
+        width: 85%;
 
         &:hover {
             color: $title_hover_color;
@@ -267,17 +269,5 @@
         position: absolute;
         top: 40%;
         width: 100%;
-    }
-}
-
-.ultimas-noticias-destaque {
-    h3 {
-        width: 65%;
-    }
-
-    .post {
-        p {
-
-        }
     }
 }

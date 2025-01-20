@@ -51,7 +51,7 @@ get_header();
                     <h4>ATI Paraopeba Nacab</h4>
                     <p><b>Leonardo Dupin</b> – Coordenador de Comunicação</p>
                     <ul>
-                        <li><a href="#"><img src="http://localhost:8000/wp-content/themes/nacab/assets/img/telefone.svg"> (31) 99560-7244</a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/telefone.svg"> (31) 99560-7244</a></li>
                     </ul>
                 </div>
                 <div class="dams mt-2 pt-1">
@@ -59,21 +59,21 @@ get_header();
                     <p>Atende os municípios de Pará de Minas, Florestal, São José da Varginha,
                         Pequi, e Fortuna de Minas</p>
                     <ul>
-                        <li><a href="#"><img src="http://localhost:8000/wp-content/themes/nacab/assets/img/telefone.svg"> (31) 99560-7244</a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/telefone.svg"> (31) 99560-7244</a></li>
                     </ul>
                 </div>
                 <div class="dams mt-2 pt-1">
                     <p><b>Márcio Martins</b> – Escritório de Esmeraldas</p>
                     <p>Atende o município de Esmeraldas</p>
                     <ul>
-                        <li><a href="#"><img src="http://localhost:8000/wp-content/themes/nacab/assets/img/telefone.svg"> (31) 99560-7244</a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/telefone.svg"> (31) 99560-7244</a></li>
                     </ul>
                 </div>
                 <div class="dams mt-2 pt-1">
                     <p><b>Marcos Oliveira</b> – Escritório de Paraopeba</p>
                     <p>Atende os municípios de Paraopeba, Caetanópolis, Maravilhas e Papagaios.</p>
                     <ul>
-                        <li><a href="#"><img src="http://localhost:8000/wp-content/themes/nacab/assets/img/telefone.svg"> (31) 99560-7244</a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/telefone.svg"> (31) 99560-7244</a></li>
                     </ul>
                 </div>
 
@@ -82,7 +82,7 @@ get_header();
                     <p><b>Brígida Alvim</b> – Coordenadora de Comunicação</p>
 
                     <ul>
-                        <li><a href="#"><img src="http://localhost:8000/wp-content/themes/nacab/assets/img/telefone.svg"> (31) 99560-7244</a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/telefone.svg"> (31) 99560-7244</a></li>
                     </ul>
                 </div>
 
@@ -90,7 +90,7 @@ get_header();
                     <p><b>Patrícia Castanheira</b> – Analista de Comunicação</p>
 
                     <ul>
-                        <li><a href="#"><img src="http://localhost:8000/wp-content/themes/nacab/assets/img/telefone.svg"> (31) 99560-7244</a></li>
+                        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/telefone.svg"> (31) 99560-7244</a></li>
                     </ul>
                 </div>
 
